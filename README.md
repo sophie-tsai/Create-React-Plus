@@ -11,12 +11,12 @@ Css loader
 
 Steps
 - Go to folder you want this project to live
-- Clone this - $git clone (repo URL)
-- Rename folder to new project name
-- Remove Git files (in the root folder of your project) - $rm -rf .git
-- You can check if this worked, .git file should have been removed - \$ls -a
+- Clone this - $git clone (repo URL), this will clone the project & git files
+- Rename folder to new proj name, this does not affect git (unless you want "create-react-plus" to be your proj name)
+- Remove Git files (in the root folder of your project) - $rm -rf .git (removes the link to the previous repo, so you can establish a link to the new repo)
+- You can check if this worked, .git file should have been removed, with this command \$ls -a
 - Create new repository, do not check "Initialize this repository with a README" because we already have one
-- Follow the steps to "create a new repo on the command line" (see below)
+- Follow the steps or copy/paste the commands under "create a new repo on the command line" (see below)
   - \$git init
   - \$git add .
   - git commit -m "Initial Commit"
